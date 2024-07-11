@@ -1,11 +1,13 @@
 body{
     background-color: white;
+    margin: 0px;
 }
 .navigation{
     display: flex;
     position: absolute;
     width: 100%;
     z-index: 999;
+    margin: 10px;
 }
 .navigation>div{
     display: flex;
@@ -24,10 +26,14 @@ body{
 .top{
 display: flex;
 justify-content: center;
+margin: 10px;
 }
 .top img{
     width: 100%;
-    filter: drop-shadow(10px 10px 10px black);
+    box-shadow: 0px -25px 20px -20px rgba(0, 0, 0, 0.45), 0px 25px 20px -20px rgba(0, 0, 0, 0.45);
+}
+.heading{
+    margin: 10px;
 }
 .scroll{
     display: flex;
@@ -116,6 +122,7 @@ justify-content: center;
     display: flex;
     flex-direction: column;
     margin-top: 10px;
+    margin-left: 10px;
     padding-top: 50px
 }
 .colour-pallet{
@@ -153,6 +160,7 @@ justify-content: center;
     flex-direction: column;
     margin-top: 10px;
     padding-bottom: 49.6px;
+    margin-left: 10px;
 }
 .size-range{
     display: flex;
