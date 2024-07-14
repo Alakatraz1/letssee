@@ -46,13 +46,19 @@ color: inherit;
 }
 .search{
     display: flex;
-    flex-direction: row-reverse;
     width: 60%;
     align-items: center;
     padding: 5px;
     background-color: rgb(177, 186, 187);
     border-radius: 10px;
     margin-bottom: 5px;
+}
+.search input{
+    background-color: inherit;
+    border: none;
+    outline: none;
+    margin-right: 30px;
+    width: 90%;
 }
 .search img{
     height: 30px;
