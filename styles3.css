@@ -3,7 +3,7 @@ body{
 }
 #details a{
     text-decoration: none;
-    color: inherit;
+    color: black;
 }
 .Top-nav{
     display: flex;
